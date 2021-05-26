@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link of fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ending of fontawesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/style.js">
+    <title>HealthCare</title>
+
+    <style>
+        body {
+            background-image: url("image/15.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .form {
+            margin-top: 200px;
+        }
+
+        .card {
+            background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+
+        }
+
+        .form-group {
+            color: white;
+        }
+
+        .form-control {
+            border-radius: 50px;
+            background: transparent;
+            margin-top: 10px;
+        }
+
+        .form-control:focus {
+            background: transparent;
+            color: white;
+        }
+
+        .form-control::placeholder {}
+
+        .submit {
+            border-radius: 50px;
+            width: 100%;
+            margin: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- starting of service section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="form">
+                    <form action="">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-center">
+                                    <img style="height: 100px;" class="rounded-circle" src="image/ChiragHome logos.jpeg"
+                                        alt="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Name</label>
+                                    <input type="text" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Enter name">
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Mobile</label>
+                                    <input type="tel" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Mobile Number">
+                                </div>
+                                <button type="submit" class="btn btn-primary submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <!-- ending of form subsection -->
+
+
+    <!-- video upload  -->
+    <!-- 16:9 aspect ratio -->
+    <div class="embed-responsive embed-responsive-16by9">
+        <video width="320" height="240" controls>
+            <source src="video/SteeveJob.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- 4:3 aspect ratio -->
+    <div class="embed-responsive embed-responsive-4by3">
+        <video width="320" height="240" controls>
+            <source src="video/TorvaldsLinux.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <video width="320" height="240" controls>
+        <source src="video/TorvaldsLinux.mp4" type="video/mp4">
+      </video>
+
+    <div class="embed-responsive embed-responsive-16by9"> 
+        <iframe width="320" height="320" src="https://www.youtube.com/embed/VS6UOyTb5eU" 
+    frameborder="0" allowfullscreen></iframe>
+
+
+</body>
+
+</html>

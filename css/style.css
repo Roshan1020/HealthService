@@ -1,0 +1,189 @@
+/* drop-down menu of nav-link */
+.navBar-link li a 
+{ 
+    font-size: 15px;
+}
+.navBar-link li a:hover 
+{ 
+    font-size: 16px;
+    color: green;
+}
+/*end of drop-down menu of nav-link */
+
+
+.header
+{
+ height: 90vh;
+ width: 100%;
+ background: linear-gradient(to right,rgba(35, 39, 39, 0.9),rgba(129, 231, 12, 0.3));
+ background:linear-gradient(to right,rgba(0, 0, 0,.9),rgb(0, 0, 0,.4)) ,url(https://www.portea.com/static/bedcb297c5d4c797b7d9c7104968931b/07551/home.webp);
+ background-size:cover;
+ color: white;
+ font-size:larger;
+}
+
+.h-100
+{ 
+    width: 100%;
+    height: 100%;
+}
+
+/* it is a part of service section  */
+.service
+{
+    /* background: linear-gradient(to bottom,rgba(0,0,0,.9),rgba(233, 226, 226, 0.726)); */
+    background-color: whitesmoke;
+    color: black;
+}
+.service a p
+{ 
+    color: #007cba;
+}
+
+.service a p:hover
+{ 
+    color: green;
+    font-size: 16px;
+}
+/* end of service section  */
+
+
+/* stating of member section serivce-2 */
+.service-2
+{
+    background: rgb(84, 204, 212);
+    color: black;
+}
+
+/*starting of css for experience year */
+.service-3
+{
+    background: rgb(20, 74, 78);
+    overflow: auto;
+}
+
+/* ending of member section service-2  */
+/* starting of copyright footer */
+.h6-100
+{ 
+    color: white;
+    font-size:large;
+    font-style: normal;
+}
+.list li
+{ 
+    list-style: none;
+    color: aqua;
+
+}
+.list li a 
+{
+ text-decoration: none;  
+ color: white;
+ font-size: small;
+}
+.list li a:hover
+{ 
+    color: red;
+    font-size: 15px;
+}
+.footer
+{ 
+    background-color: rgb(47, 37, 85);
+}
+
+
+
+/* sliding up navbar css */
+#navbar{
+    background-color: rgba(241, 229, 229, 0.918);
+    position: fixed;
+    bottom: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+}
+  #navbar li 
+  { 
+      list-style: none;
+  }
+  #navbar li a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+  #navbar li a:hover {
+      background-color:burlywood;
+      color: black;
+  }
+  
+  /* ending of sliding up navbar */
+
+  
+  #right-btn
+  { 
+      float:right;
+  }
+  .num{
+      padding: 5px;
+    }
+  .num p{
+      
+      color: white;
+    }
+    
+    /* btn of members section  */
+    .bottn-1 a button
+    { 
+        font-family: sans-serif;
+        font-size: x-large;
+  }
+  .bottn-1 a button:hover
+  { 
+      border: 1px solid;
+      border-color: black;
+      text-decoration: underline;
+    }
+    /* ending of btn of members section  */
+.card-link-style a
+{ 
+    color: blue;
+    text-decoration: none;
+}
+
+/*starting anchor tag of service section  */
+.card-link-style a:hover
+{ 
+    color: green;
+    font-size:15px;
+    text-decoration: none;
+}
+/* ending of anchor tag of service section  */
+
+/* service card effect */
+.card1:hover {
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, .75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, .75);
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, .75);
+}
+/* end of service card effect */
+
+
+/* start of social media icon  */
+.a-100 a
+{ 
+    color: white;
+    text-decoration: none;
+
+}
+
+.a-100 a:hover
+{ 
+    color: red;
+}
+

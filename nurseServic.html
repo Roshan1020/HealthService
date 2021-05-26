@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <!-- import form css file  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/style.js">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+
+    <title>Nurse service</title>
+
+
+    <style>
+        .header {
+            height: 500px;
+            width: 100%;
+            background: linear-gradient(to left, rgba(12, 11, 11, 0.9), rgba(146, 204, 144, 0.4)),
+                url(image/15.jpg);
+            color: white;
+            overflow: visible;
+            background-size: 100% 100%;
+            overflow: auto;
+        }
+
+        .h-100 {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* section "why choose us" */
+        .section-11 {
+            background-color: whitesmoke;
+
+        }
+
+        .section-11 .listStyle ul li {
+            list-style: none;
+
+        }
+
+        /* .vl {
+            border-left: 2px solid rgb(243, 245, 243);
+            height: 200px;
+            position: absolute;
+            left: 100%;
+            margin-left: -3px;
+            top: 0;
+        }
+
+        @media only screen and (max-width: 768px) {
+
+            /* For mobile phones: */
+        [class*="vl"] {
+            display: none;
+        }
+
+        */
+        /* for form section */
+
+        .form-group {
+            color: rgb(22, 18, 18);
+        }
+
+        .form-control {
+            border-radius: 50px;
+            background: transparent;
+            margin-top: 10px;
+        }
+
+        .form-control:focus {
+            background: transparent;
+            color: white;
+        }
+
+
+        .submit {
+            border-radius: 50px;
+            width: 50%;
+            margin: 10px;
+        }
+
+        .form-container {
+            background: #fff;
+            background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px #000;
+        }
+
+        .bg {
+            width: 100%;
+            height: 100vh;
+            background-size: 200%;
+        }
+
+        @media only screen and(max-width:678px) {
+            .bg {
+                background-size: 300%;
+                width: auto;
+            }
+        }
+
+
+        /* after form section  */
+        header-2 {
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- starting of navbar in about us  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top  py-3">
+        <div class="container-fluid">
+            <img src="image/ChiragHome logos.jpeg" width="50" height="50"
+            class="d-inline-block align-top rounded-circle mx-4" alt="">
+            <!-- <img src="image/ChiragHome logos.jpeg" width="50" height="50"
+                class="d-inline-block align-top rounded-circle mx-4" alt=""> -->
+                <a class="navbar-brand" href="#">CHIRAG</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Our Service
+                            </a>
+                            <ul class="dropdown-menu navBar-link" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item link1" href="#">Covid Care</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="elderService.html">Elderly Companion Care</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="nurseServic.html">Nursing Services</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Patient Care</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Physiotherapy at Home</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Infant Care</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Post Operative Care</a></li>
+                            </ul>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+    </nav>
+    <!-- ending of navbar in about us page  -->
+
+    <!-- starting of nurse service section  -->
+    <div class="header">
+        <div class="container-fluid h-100 bg">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-sm-6 col-md-3 text-right ">
+                    <!--starting form subsection -->
+                    <form class="form-container">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block submit">Submit</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ending of nurse service section  -->
+
+
+    <!-- provided service are  -->
+    <div class="header-2">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-8">
+                    <h1 class="card-title">CHIRAG's NURSING SERVICES</h1>
+                    <br>
+                    <div>
+                        <hr>
+                    </div>
+                    <ul>
+
+                        <li>
+                            <p>Giving medicines on time</p>
+                        </li>
+                        <li>
+                            <p>Fixing a diet plan</p>
+                        </li>
+                        <li>
+                            <p>Caring and dressing wounds</p>
+                        </li>
+                        <li>
+                            <p>Monitoring of Vital Signs</p>
+                        </li>
+                        <li>
+                            <p>Intravenous medication and IV fluid management</p>
+                        </li>
+                        <li>
+                            <p>Nebulization</p>
+                        </li>
+                        <li>
+                            <p>Ryles Tube Insertion and Feeding</p>
+                        </li>
+                        <li>
+                            <p>Oral and personal hygiene, feeding and bathroom assistance, or assistance with mobility
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4 my-5 text-center">
+                    <a href="tel:+9329117761"><button class="btn btn-success w-75 ">(+91) 93 29117761</button></a>
+                    <br><br>
+                    <a href="mailto: chiraghomecare11@gmail.com"><button
+                            class="btn btn-success w-75">chiraghomecare11@gmail.com</button></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ending of provided services  -->
+
+    <!-- why choose us  -->
+    <section class="section-11">
+        <div class="container">
+            <h2 class="py-5 text-center">Why Choose Our Team</h2>
+            <div class="row">
+                <div class="col-md-6 listStyle">
+                    <ul>
+                        <li>
+                            <img style="height: 60px;width: 60px;"
+                                src="https://i1.wp.com/care24.co.in/wp-content/uploads/2019/06/Exp-nurse.png?fit=150%2C150&ssl=1"
+                                alt="">
+                            <h2 class="fw-normal">Experienced Team</h2>
+                            <p>Our team has years of specialized experience to provide professional nursing care
+                                services.</p>
+                        </li><br><br>
+                        <li>
+                            <img style="height: 60px;width: 60px;"
+                                src="https://i0.wp.com/care24.co.in/wp-content/uploads/2019/06/Certified-Team.png?fit=150%2C150&ssl=1"
+                                alt="">
+                            <h2 class="fw-normal">Certified Nurses</h2>
+                            <p>We have a versatile team of certified nurses that specialize in providing professional
+                                at-home nursing care.</p>
+                        </li><br><br>
+                        <li>
+                            <img style="height: 60px;width: 60px;"
+                                src="https://i2.wp.com/care24.co.in/wp-content/uploads/2019/05/icon2.png?fit=84%2C103&ssl=1"
+                                alt="">
+                            <h2 class="fw-normal">Constantly Trained</h2>
+                            <p>Our nurses and attendants have regular drills to keep ready for all situations.</p>
+                        </li><br><br>
+                    </ul>
+                </div>
+                <div class="col-md-6 listStyle">
+                    <ul>
+                        <li>
+                            <img style="height: 60px;width: 60px;"
+                                src="https://i0.wp.com/care24.co.in/wp-content/uploads/2019/06/ability.png?fit=150%2C150&ssl=1"
+                                alt="">
+                            <h2 class="fw-normal">Special Abilities Patient Care</h2>
+                            <p>Our team has years of specialized experience to provide professional nursing care
+                                services.</p>
+                        </li><br><br>
+                        <li>
+                            <img style="height: 60px;width: 60px;"
+                                src="https://i2.wp.com/care24.co.in/wp-content/uploads/2019/06/Evaluated.png?fit=150%2C150&ssl=1"
+                                alt="">
+                            <h2 class="fw-normal">Thoroughly Evaluated</h2>
+                            <p>
+                                Our methods and care plans are thoroughly valuated, and follow the best medical
+                                practices and guidelines.
+                            </p>
+                        </li><br><br>
+                        <li>
+                            <img style="height: 60px;width: 60px;"
+                                src="https://i2.wp.com/care24.co.in/wp-content/uploads/2019/05/icon2.png?fit=84%2C103&ssl=1"
+                                alt="">
+                            <h2 class="fw-normal">100% Verified</h2>
+                            <p>We have a completely transparent system that is designed to be with the patient at every
+                                stage of the process.</p>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- ending of why choose-us section  -->
+
+    <!--starting  of company experience section -->
+    <section class="service-3 py-1 ">
+        <div class="container-fluid">
+            <div class="row text-center py-5">
+                <div class="col-md-3">
+                    <div class="card border-0" style="background-color: rgb(20, 74, 78);">
+                        <img class="mx-auto" style="height: 100px; width: 100px;"
+                            src="https://i2.wp.com/care24.co.in/wp-content/uploads/2019/05/smile.png?fit=55%2C55&ssl=1"
+                            alt="">
+                        <div class="card-body">
+                            <h3 style="color: white;" class="card-title">13,00,000+</h3>
+                            <p style="color: white;" class="card-text">Patient Visits</p>
+                            <!-- vertical line -->
+                            <div class="vl"></div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border-0" style="background-color: rgb(20, 74, 78);">
+                        <img class="mx-auto" style="height: 100px;width: 100px;"
+                            src="https://i0.wp.com/care24.co.in/wp-content/uploads/2019/05/clipboard.png?fit=70%2C70&ssl=1"
+                            alt="">
+                        <div class="card-body">
+                            <h3 style="color: white;" class="card-title">6+</h3>
+                            <p style="color: white;" class="card-text">Years Of Experience</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border-0" style="background-color: rgb(20, 74, 78);">
+                        <img class="mx-auto" style="height: 100px;width: 100px;"
+                            src="https://i2.wp.com/care24.co.in/wp-content/uploads/2019/05/team.png?fit=60%2C60&ssl=1"
+                            alt="">
+                        <div class="card-body">
+                            <h3 style="color: white;" class="card-title">2000+</h3>
+                            <p style="color: white;" class="card-text">Strong Team</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border-0" style="background-color: rgb(20, 74, 78);">
+                        <img class="mx-auto" style="height: 100px;width: 100px;"
+                            src="https://i2.wp.com/care24.co.in/wp-content/uploads/2019/05/stethescope.png?fit=60%2C60&ssl=1"
+                            alt="">
+                        <div class="card-body">
+                            <h3 style="color: white;" class="card-title">5</h3>
+                            <p style="color: white;" class="card-text">Cities We Operate In</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end of company experience section -->
+
+
+    <!-- starting of testimonial  -->
+    <div class="container-fluid text-center py-4">
+        <h1 class="py-2 " style="color: rgb(9, 145, 236);margin-bottom: 40px;">How We Made A Difference
+            <hr class="mx-auto" style="width: 30%;">
+        </h1>
+        <div class="owl-carousel owl-theme">
+            <div>
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <video width="320" height="240" controls>
+                                <source src="video/TorvaldsLinux.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="container">
+                            <h3>video clip is</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video width="320" height="240" controls>
+                                <source src="video/ElonMusk.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="container">
+
+                            <p class="card-text">Roshan Tekam,Raipur</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video width="320" height="240" controls>
+                                <source src="video/ElonMusk.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="container">
+
+                            <p class="card-text">Roshan Tekam,Durg</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video width="320" height="240" controls>
+                                <source src="video/ElonMusk.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="container">
+                            <p class="card-text">Roshan Tekam,Durg</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video width="320" height="240" controls>
+                                <source src="video/ElonMusk.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="container">
+                            <p class="card-text">ROSH ROSH ROSH</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div>
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video width="320" height="240" controls>
+                                <source src="video/SteeveJob.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="container">
+                            <img style="width: 150px;height: 100px;" class="img-fluid rounded-circle mx-auto"
+                                src="https://i2.wp.com/care24.co.in/wp-content/uploads/2019/06/UP3.png?fit=150%2C150&ssl=1"
+                                alt="doctor">
+                            <p class="card-text">Roshan Tekam,Durg</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div>
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video width="320" height="240" controls>
+                                <source src="video/ElonMusk.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="container">
+                            <!-- <img style="width: 100px;height: 100px;" class="img-fluid rounded-circle mx-auto"
+                                src="https://i2.wp.com/care24.co.in/wp-content/uploads/2019/06/UP5.png?fit=150%2C150&ssl=1"
+                                alt="doctor"> -->
+                            <p class="card-text">Roshan Tekam,Durg</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- import js for testimonial design -->
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <!-- Now call the Owl initializer function and your carousel is ready. -->
+    <!-- autoplayTimeout:true, -->
+    <!-- smartSpeed:true, -->
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel(
+                {
+                    // autoplay: true,
+                    loop: true,
+                    margin: 10,
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true
+                        },
+                        600: {
+                            items: 2,
+                            nav: false
+                        },
+                        1000: {
+                            items: 3,
+                            nav: true,
+                            loop: false
+                        }
+                    }
+                }
+            );
+        });
+    </script>
+    <!-- ending of owl plugin  -->
+    <!-- ending of testimonial  -->
+
+
+
+    <!-- starting of members section -->
+    <section class="service-2 py-1">
+        <div class="container text-center py-2">
+            <h1 style="color: white; margin-bottom: 30px;">Expert Panel Members
+                <hr>
+            </h1>
+            <div class="row">
+                <!-- it is first card -->
+                <div class="col-md-4">
+                    <div class="card border-0 mx-auto"
+                        style="background-color: rgb(84, 204, 212);width: 50%;height: 50%;">
+                        <img style="height: 200px;"
+                            src="https://www.portea.com/static/062615d8589d22352bf5329a2cd35668/e6e97/naveen-pic-1.jpg"
+                            class="card-img-top rounded-circle" alt="...">
+                        <div class="card-body">
+                            <h2>Dr. vivek</h2>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- it is second card -->
+                <div class="col-md-4 ">
+                    <div class="card border-0   mx-auto"
+                        style="background-color: rgb(84, 204, 212);width: 50%;height: 50%;">
+                        <img style="height: 200px;"
+                            src="https://www.portea.com/static/ab0e7dc563933ce547c48fdf7c0ea554/3d22d/Dr-Kavitha.S.-Manjunath-1.jpg"
+                            class="card-img-top rounded-circle" alt="...">
+                        <div class="card-body">
+                            <h2>Dr. vivek</h2>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- it is third card -->
+                <div class="col-md-4 ">
+                    <div class="card border-0   mx-auto"
+                        style="background-color: rgb(84, 204, 212);width: 50%;height:50%;">
+                        <img style="height: 200px;"
+                            src="https://www.portea.com/static/99864b6a400fec6b673c3de858216444/cff51/Dr-Sanjay-Bajpai.png"
+                            class="card-img-top rounded-circle" alt="image">
+                        <div class="card-body">
+                            <h2>Dr. vivek</h2>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="py-3 bottn-1">
+                <a class="p-2" href="TeamMembers.html"><button type="button" class="btn btn-secondary fw-bold">View All
+                        Members</button></a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ending of members section -->
+
+
+
+
+
+
+    <!-- startin of copyright section -->
+    <section class="footer">
+        <div class="container text-center py-5 xm-5">
+            <div class="row">
+                <!-- it is first col -->
+                <div class="col-md-3">
+                    <h6 class="h6-100 fw-bold">ABOUT US</h6>
+                    <ul class="list fw-light">
+                        <li><a href="#">Our Medical Team</a></li>
+                        <li><a href="#">Press & Media</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Partner With Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+
+                </div>
+                <!-- it is second col -->
+                <div class="col-md-3">
+                    <h6 class="h6-100 fw-bold">OUR SERVICES</h6>
+                    <ul class="list fw-lighter">
+                        <li><a href="#">Physiotherapy</a></li>
+                        <li><a href="#">Doctor Consultations</a></li>
+                        <li><a href="#">Nursing</a></li>
+                        <li><a href="#">Medical Equipment</a></li>
+                        <li><a href="#">Trained Attendants</a></li>
+                        <li><a href="#">Counselling</a></li>
+                        <li><a href="#">Lab Tests</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- it is third col -->
+                <div class="col-md-3">
+                    <h6 class="h6-100 fw-bold">POPULAR SEARCHES</h6>
+                    <ul class="list fw-light">
+                        <li><a href="#">Physiotherapy for Back Pain</a></li>
+                        <li><a href="#">Physiotherapy for sports</a></li>
+                        <li><a href="#">Eldercare for Parents</a></li>
+                        <li><a href="#">Injections and IVs</a></li>
+                        <li><a href="#">Cholesterol tests</a></li>
+                        <li><a href="#">Refer a friend</a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+
+                </div>
+
+                <!-- it is fourth col -->
+                <div class="col-md-3">
+                    <h6 class="h6-100 fw-bold">FIND US</h6>
+                    <ul class="list fw-light">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Google +</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">BLOG</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <!-- border-line  -->
+            <div style="color: white;">
+                <hr>
+            </div>
+            <!-- ending of border-line  -->
+            <p class="p-1 fw-light" style="color: white;">*I agree to be contacted by Chirag over phone and email. I do
+                not have any objection to receiving emails,
+                messages (SMS or any other mode) and calls from Chirag. This consent shall supersede any preferences set
+                through Do Not Disturb (DND Register)/ National Customer Preference Register (NCPR).</p>
+            <!-- border-line  -->
+            <div style="color: white;">
+                <hr>
+            </div>
+            <!-- ending of border-line  -->
+
+            <p style="color: white; margin-bottom: 25px;">Copyright @ 2020 - chirag-HealthCare
+            </p>
+            <!-- border-line  -->
+            <div style="color: white;">
+                <hr>
+            </div>
+            <!-- ending of border-line  -->
+
+            <div class="row align-items-start">
+                <div class="col-md-6 a-100 mx-auto">
+                    <a href="#">Privacy Policy|Terms and Conditions</a>
+                </div>
+
+                <div class="col-md-6 mx-auto">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="list-group-item border-0" style="background: rgb(47, 37, 85);"><a href=""><img
+                                    style="height: 18px;width: 18px;" class="mx-1" src="image/insta.png"
+                                    alt="insta"></a></li>
+                        <li class="list-group-item border-0" style="background: rgb(47, 37, 85);"><a href=""><img
+                                    style="height: 18px;width: 18px;" class="mx-1" src="image/facebook.png"
+                                    alt="facebook"></a></li>
+                        <li class="list-group-item border-0" style="background: rgb(47, 37, 85);"><a href=""><img
+                                    style="height: 18px;width: 18px;" class="mx-1" src="image/linkedin.png"
+                                    alt="linkedin"></a></li>
+                        <li class="list-group-item border-0" style="background: rgb(47, 37, 85);"><a href=""><img
+                                    style="height: 18px;width: 18px;" class="mx-1" src="image/twitter.png"
+                                    alt="twitter"></a></li>
+                        <li class="list-group-item border-0" style="background: rgb(47, 37, 85);"><a href=""><img
+                                    style="height: 18px;width: 18px;" class="mx-1" src="image/whatsapp.png"
+                                    alt="whatsapp"></a></li>
+                        <li class="list-group-item border-0" style="background: rgb(47, 37, 85);"><a
+                                href="https://www.youtube.com"><img style="height: 18px;width: 18px;" class="mx-1"
+                                    src="image/youtube.png" alt="youtube"></a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- ending of copyright section -->
+
+
+</body>
+
+</html>
